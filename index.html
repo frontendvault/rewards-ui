@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/responsive.css">
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img src="images/logo.png" alt="">
+                </a>
+                <button
+                    class="navbar-toggler"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mb-2 mb-lg-0 ms-auto top-nav">
+                        <li class="nav-item ">
+                            <a
+                                class="nav-link  p-4 py-2 active"
+                                aria-current="page"
+                                href="#">
+                                <img src="images/user.png">
+                            </a>
+                        </li>
+
+                        <li class="nav-item ">
+                            <a
+                                class="nav-link p-4 py-2 "
+                                aria-current="page"
+                                href="#">
+                                <img src="images/user.png">
+                                ACCOUNT</a>
+                        </li>
+                        <li class="nav-item ">
+                            <a class="nav-link  p-4 py-2" href="#">
+                                <img src="images/call.png">
+                                (972) 888-4298</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="container text-center mt-4 mt-md-5 mb-4">
+            <h2 class="fw-bold">Reward Centre</h2>
+        </div>
+        <section class="container reward-centre mb-4 mb-md-5">
+            <div class="row bg-white">
+                <div class="col px-md-0">
+                    <div
+                        class="section-header d-flex justify-content-md-between p-4 align-items-md-center row">
+                        <div class="section-header-left col-md-6">
+                            <h3>Buy 3 items in Sweets
+                                <span class="badge bg-warning rounded-0 fs-6 fw-normal text-dark">
+                                    <small>Expiring in 3 days</small>
+                                </span>
+                            </h3>
+                            <p class="text-dark fw-normal">Eligible products are Caramel Pudding, Doughnuts and Cream pasteries</p>
+                        </div>
+                        <div class="section-header-right col-md-6">
+                            <div class="progress-section">
+                                <div class="checked"></div>
+                                <div class="line"></div>
+                                <div class="checked"></div>
+                                <div class="line"></div>
+                                <div class="check"></div>
+
+                            </div>  <p class="text-end mt-2">1 remaining </p>
+                        </div>
+                    </div>
+                    <div class="section-body bg-light py-4 py-md-5 tabs-section">
+                        <ul
+                            class="nav nav-pills mb-3 d-flex justify-content-center"
+                            id="pills-tab"
+                            role="tablist">
+                            <li class="nav-item" role="presentation">
+                                <button
+                                    class="nav-link active"
+                                    id="pills-home-tab"
+                                    data-bs-toggle="pill"
+                                    data-bs-target="#pills-home"
+                                    type="button"
+                                    role="tab"
+                                    aria-controls="pills-home"
+                                    aria-selected="true">ITEMS ELIGIBLE FOR REWARD</button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <button
+                                    class="nav-link"
+                                    id="pills-profile-tab"
+                                    data-bs-toggle="pill"
+                                    data-bs-target="#pills-profile"
+                                    type="button"
+                                    role="tab"
+                                    aria-controls="pills-profile"
+                                    aria-selected="false">Rewards AVAILABLE</button>
+                            </li>
+                        </ul>
+                        <div class="tab-content" id="pills-tabContent">
+                            <div
+                                class="tab-pane fade show active"
+                                id="pills-home"
+                                role="tabpanel"
+                                aria-labelledby="pills-home-tab">
+                                <div class="row items-holder">
+
+                                    <div class=" col-6 col-md item">
+                                        <img src="images/image-orderedproduct1.png" class="img-fluid" alt="">
+                                        <h3 class="item-title">Ordered Product 1</h3>
+                                        <p class="date mb-0">
+                                            Feb 11, 2019
+                                        </p>
+                                    </div>
+                                    <div class=" col-6 col-md item">
+                                        <img src="images/image-orderedproduct2.png" class="img-fluid" alt="">
+                                        <h3 class="item-title">Ordered Product 1</h3>
+                                        <p class="date mb-0">
+                                            Feb 11, 2019
+                                        </p>
+                                    </div>
+
+                                    <div class=" col-6 col-md item p-md-1">
+                                        <div class="file-upload-container">
+                                            <input type="file" class="form-control">
+                                            <div class="file-ui">
+                                                <div class="plus">
+                                                    +
+                                                </div>
+                                                <p>Order 1 more product to unlock rewards</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div
+                                class="tab-pane fade"
+                                id="pills-profile"
+                                role="tabpanel"
+                                aria-labelledby="pills-profile-tab">
+                                <div class="row items-holder">
+                                    <div class=" col item">
+                                        <img src="images/image-orderedproduct1.png" class="img-fluid" alt="">
+                                        <h3 class="item-title">Ordered Product 1</h3>
+                                        <p class="date mb-0">
+                                            Feb 11, 2019
+                                        </p>
+                                    </div>
+                                    <div class=" col item">
+                                        <img src="images/image-orderedproduct1.png" class="img-fluid" alt="">
+                                        <h3 class="item-title">Ordered Product 1</h3>
+                                        <p class="date mb-0">
+                                            Feb 11, 2019
+                                        </p>
+                                    </div>
+                                    <div class=" col item">
+                                        <img src="images/image-orderedproduct1.png" class="img-fluid" alt="">
+                                        <h3 class="item-title">Ordered Product 1</h3>
+                                        <p class="date mb-0">
+                                            Feb 11, 2019
+                                        </p>
+                                    </div>
+                                    <div class=" col item">
+                                        <img src="images/image-orderedproduct1.png" class="img-fluid" alt="">
+                                        <h3 class="item-title">Ordered Product 1</h3>
+                                        <p class="date mb-0">
+                                            Feb 11, 2019
+                                        </p>
+                                    </div>
+                                    <div class=" col item">
+                                        <img src="images/image-orderedproduct1.png" class="img-fluid" alt="">
+                                        <h3 class="item-title">Ordered Product 1</h3>
+                                        <p class="date mb-0">
+                                            Feb 11, 2019
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="container reward-centre mb-4 mb-md-5">
+            <div class="row bg-white">
+                <div class="col px-md-0">
+                    <div
+                        class="section-header d-flex justify-content-md-between p-4 align-items-md-center row">
+                        <div class="section-header-left col-md-6">
+                            <h3>Buy 3 items in Sweets
+                                <span class="badge bg-warning rounded-0 fs-6 fw-normal text-dark">
+                                    <small>Expiring in 3 days</small>
+                                </span>
+                            </h3>
+                            <p class="text-dark fw-normal">Eligible products are Caramel Pudding, Doughnuts and Cream pasteries</p>
+                        </div>
+                        <div class="section-header-right col-md-6">
+                            <div class="progress-section">
+                                <div class="checked"></div>
+                                <div class="line"></div>
+                                <div class="checked"></div>
+                                <div class="line"></div>
+                                <div class="check"></div>
+
+                            </div>  <p class="text-end mt-2">1 remaining </p>
+                        </div>
+                    </div>
+                    <div class="section-body bg-light py-4 py-md-5 tabs-section">
+                        <ul
+                            class="nav nav-pills mb-3 d-flex justify-content-center"
+                            id="pills-tab1"
+                            role="tablist">
+                            <li class="nav-item" role="presentation">
+                                <button
+                                    class="nav-link active"
+                                    id="pills-home-tab"
+                                    data-bs-toggle="pill"
+                                    data-bs-target="#pills-home1"
+                                    type="button"
+                                    role="tab"
+                                    aria-controls="pills-home"
+                                    aria-selected="true">ITEMS ELIGIBLE FOR REWARD</button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <button
+                                    class="nav-link"
+                                    id="pills-profile-tab1"
+                                    data-bs-toggle="pill"
+                                    data-bs-target="#pills-profile"
+                                    type="button"
+                                    role="tab"
+                                    aria-controls="pills-profile"
+                                    aria-selected="false">Rewards AVAILABLE</button>
+                            </li>
+                        </ul>
+                        <div class="tab-content" id="pills-tabContent">
+                            <div
+                                class="tab-pane fade show active"
+                                id="pills-home1"
+                                role="tabpanel"
+                                aria-labelledby="pills-home-tab">
+                                <div class="row items-holder">
+
+                                    <div class=" col-6 col-md item">
+                                        <img src="images/image-orderedproduct1.png" class="img-fluid" alt="">
+                                        <h3 class="item-title">Ordered Product 1</h3>
+                                        <p class="date mb-0">
+                                            Feb 11, 2019
+                                        </p>
+                                    </div>
+                                    <div class=" col-6 col-md item">
+                                        <img src="images/image-orderedproduct2.png" class="img-fluid" alt="">
+                                        <h3 class="item-title">Ordered Product 1</h3>
+                                        <p class="date mb-0">
+                                            Feb 11, 2019
+                                        </p>
+                                    </div>
+
+                                    <div class=" col-6 col-md item p-md-1">
+                                        <div class="file-upload-container">
+                                            <input type="file" class="form-control">
+                                            <div class="file-ui">
+                                                <div class="plus">
+                                                    +
+                                                </div>
+                                                <p>Order 1 more product to unlock rewards</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div
+                                class="tab-pane fade"
+                                id="pills-profile1"
+                                role="tabpanel"
+                                aria-labelledby="pills-profile-tab">
+                                <div class="row items-holder">
+                                    <div class=" col item">
+                                        <img src="images/image-orderedproduct1.png" class="img-fluid" alt="">
+                                        <h3 class="item-title">Ordered Product 1</h3>
+                                        <p class="date mb-0">
+                                            Feb 11, 2019
+                                        </p>
+                                    </div>
+                                    <div class=" col item">
+                                        <img src="images/image-orderedproduct1.png" class="img-fluid" alt="">
+                                        <h3 class="item-title">Ordered Product 1</h3>
+                                        <p class="date mb-0">
+                                            Feb 11, 2019
+                                        </p>
+                                    </div>
+                                    <div class=" col item">
+                                        <img src="images/image-orderedproduct1.png" class="img-fluid" alt="">
+                                        <h3 class="item-title">Ordered Product 1</h3>
+                                        <p class="date mb-0">
+                                            Feb 11, 2019
+                                        </p>
+                                    </div>
+                                    <div class=" col item">
+                                        <img src="images/image-orderedproduct1.png" class="img-fluid" alt="">
+                                        <h3 class="item-title">Ordered Product 1</h3>
+                                        <p class="date mb-0">
+                                            Feb 11, 2019
+                                        </p>
+                                    </div>
+                                    <div class=" col item">
+                                        <img src="images/image-orderedproduct1.png" class="img-fluid" alt="">
+                                        <h3 class="item-title">Ordered Product 1</h3>
+                                        <p class="date mb-0">
+                                            Feb 11, 2019
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+     
+
+        <script src="js/bootstrap.min.js"></script>
+    </body>
+</html>

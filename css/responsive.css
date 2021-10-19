@@ -1,0 +1,15 @@
+@media only screen and (max-width: 767px) {
+  .items-holder {
+    justify-content: flex-start;
+    min-width: 80%;
+    width: 80%;
+    max-width: 100%; }
+    .items-holder .item {
+      min-height: 200px;
+      min-width: 136px; }
+
+  .progress-section {
+    justify-content: center;
+    width: 100%; } }
+
+/*# sourceMappingURL=responsive.css.map */
